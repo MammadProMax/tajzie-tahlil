@@ -1,0 +1,91 @@
+body {
+  font-family: Vazirmatn, sans-serif;
+  background-color: #b3e8e5;
+  color: black;
+  text-align: center;
+  margin: 150px 0;
+}
+h1:nth-child(1) {
+  padding: 2% 7%;
+}
+p {
+  line-height: 2.5;
+  padding: 40px 0;
+}
+img {
+  border-radius: 20px;
+  width: 350px;
+}
+
+section {
+  padding: 5%;
+  overflow: hidden;
+}
+.colored-section {
+  color: white;
+  background-color: #2f8f9d;
+  margin: 100px 0;
+}
+.section1 h1 {
+  font-size: 2rem;
+}
+.section2 .second-img {
+  width: 320px;
+}
+.section13 h2:nth-child(1) {
+  position: relative;
+  top: 24px;
+}
+.section13 h2:nth-child(2) {
+  padding: 0 15%;
+}
+.section13 h4 {
+  position: relative;
+  top: 50px;
+}
+.section16 li {
+  margin: 5% 0;
+}
+.container {
+  width: 226px;
+  height: 127px;
+  overflow: hidden;
+  margin: 0 auto;
+  border-radius: 11px;
+  position: relative;
+}
+.reinbow-rotator {
+  background: linear-gradient(115deg, green, red, blue, yellow);
+  position: relative;
+
+  bottom: 101px;
+  right: 54px;
+  border-radius: 50%;
+  width: 300px;
+  height: 300px;
+
+  animation: reinbow 0.8s cubic-bezier(0.27, 0.25, 0.58, 0.57) 0s infinite;
+}
+.protector {
+  margin: 10px auto;
+  position: absolute;
+  top: 0px;
+  left: 6px;
+  background-color: white;
+  color: rgb(0, 0, 0);
+  width: fit-content;
+  border-radius: 11px;
+}
+.protector > h1 {
+  margin: 0;
+}
+@keyframes reinbow {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@media (max-width: 405px) {
+  img {
+    width: 320px;
+  }
+}
